@@ -1,18 +1,24 @@
-# TCDM-UIE
-This is the official implementation of TCDM-UIE. The code is currently being organized and will be released shortly. 
+# A Two-Stage Conditional Diffusion Model for Underwater Image Enhancement (TCDM-UIE)
+The code is being organized and the core part has been released. The full implementation will be available shortly.
 
 # Requirements 
 python>=3.9   
 torch>=2.0  
 torchvision  
 numpy  
-pandas  
+pandas 
+opencv-python   
+skimage 
+scipy  
 tqdm  
 lmdb  
-opencv-python  
 pillow  
-tensorboardx  
-wandb  
+yaml 
+einops  
+lpips  
+tensorboard  
+wandb    
+
 
 # datasets  
 ├── UIEB/  
