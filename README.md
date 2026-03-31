@@ -1,7 +1,7 @@
 # A Two-Stage Conditional Diffusion Model for Underwater Image Enhancement (TCDM-UIE)  
 The initial version of the code is uploaded. Further updates to follow.  
   
-# Requirements 
+## Requirements 
 python>=3.9   
 torch>=2.0  
 torchvision  
@@ -19,7 +19,7 @@ lpips
 tensorboard  
 wandb    
 
-# datasets  
+## datasets  
 ├── UIEB/  
 │   ├── train/  
 │   │   ├── input/  
@@ -32,5 +32,5 @@ wandb
 │   │   │   └── 0800.png/  
 
 
-# Acknowledgments   
+## Acknowledgments   
 Part of the code is adapted from previous works: [Restormer](https://github.com/swz30/Restormer), [WeatherDiffusion](https://github.com/IGITUGraz/WeatherDiffusion), [DM_underwater](https://github.com/piggy2009/DM_underwater). We thank the authors for their outstanding contributions.
